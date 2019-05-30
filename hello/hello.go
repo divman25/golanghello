@@ -4,6 +4,7 @@ import (
     "fmt"
     "test"
     "hello/testinside"
+    "arrays"
 )
 
 func main() {
@@ -12,4 +13,6 @@ func main() {
     test.PrintMe()
     testinside.PrintMe()
     testinside.PrintMe2()
+
+    arrays.Execute()
 }
